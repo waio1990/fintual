@@ -26,5 +26,5 @@ class Portfolio:
     # Anualizado
     porc_an=(date(Date2)-date(Date1)).days/365
       
-    return (dolla/inic)*inic
+    return (dolla/inic)*porc_an
   
