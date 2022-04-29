@@ -1,9 +1,10 @@
 #!Python
 from datetime import date
 
-class Portfolio(stocks):
+class Portfolio:
   # stocks es un diccionario con llave: Ticker de la Accion y valor: la cantidad de acciones
-  Stock=stocks
+  def __init__(self,stocks)
+    self.Stock=stocks
   
   def profit(self,Date1,Date2):
   # entregar el profit entre 2 fechas.   
@@ -23,7 +24,7 @@ class Portfolio(stocks):
       
     # return dolla/inic
     # Anualizado
-      porc_an=(date(Date2)-date(Date1)).days/365
+    porc_an=(date(Date2)-date(Date1)).days/365
       
-      return (dolla/inic)*inic
+    return (dolla/inic)*inic
   
